@@ -1,0 +1,688 @@
+@charset "UTF-8";
+/* Christal.css */
+
+body{
+  width:100%;
+  height:100vw;
+  position: absolute;
+  top:-3.1vw;
+  background-color:whitesmoke;
+  float:center;
+  -webkit-transform: scale(0.95);
+       -moz-transform: scale(0.95);
+            transform: scale(0.95);
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0vw;
+  margin: 2vw 0vw 2vw 0vw;
+  font-size: 1.30vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav .current{
+  color: black;
+  text-decoration: underline;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 0.93vw 2vw 0.93vw 2vw;
+}
+
+li a:link, .exp2 a:link, .foot a:link, .footersub a:link,.turnr a:link, .turnl a:link, .prevNext a:link {
+  color:darkgray;
+} 
+
+li a:visited, .exp2 a:visited, .foot a:visited, .footersub a:visited, .turnr a:visited, .turnl a:visited, .prevNext a:visited{
+  color:#90A3B5;
+} 
+
+li a:hover, .exp2 a:hover, .foot a:hover, .footersub a:hover, .turnr a:hover, .turnl a:hover, .prevNext a:hover{
+  color:#545454;
+  text-decoration: underline;
+} 
+
+
+li a:active, .exp2 a:active, .foot a:active, .footersub a:active, .turnr a:active, .turnl a:active, .prevNext a:active{
+  color: white;
+}
+
+h1{
+ color: black;
+ text-align: center;
+ letter-spacing: 0.2vw;
+ padding-top: 1.0vw;
+ font-size: 2.55vw;
+ font-family:"Montserrat", sans-serif;
+}
+
+p{
+ color: black;
+ font-size: 1.25vw;
+ text-align: center;
+ letter-spacing: 0.22vw;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: "Raleway", sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*Code copied from: https://codepen.io/denic/pen/GRoOxbM
+  Author: Marko on Codepen
+  Name: CSS Typing Effect
+  Description: Typewriter effect
+  Date retrieved: July 1, 2020
+*/
+
+/*Copied code starts*/
+
+.header-typewrite a {
+  text-align: center;
+  text-decoration: none;
+  color:black;
+  letter-spacing: 0.08vw;
+  font-size: 1.3vw;
+  margin-left: 0.5vw;
+  font-family: "Raleway", sans-serif;/*check*/
+}
+
+.typewrite{
+  pointer-events: none;
+}
+
+.container {
+  position: relative;
+  display:inline-block;
+  width:21.528vw;
+  height:32.3vw;
+  margin: 4.5vw 1vw 2.76vw 1.8vw;
+}
+
+.image {
+  display: block;
+  width:21.528vw;
+  height:32.3vw;
+}
+
+.overlay {
+  position: absolute;
+  top: 0vw;
+  bottom: 0;
+  left: 0vw;
+  right: 0;
+  width:21.528vw;
+  height:32.3vw;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5D595980;
+}
+
+.container:hover .overlay {
+  opacity:1;
+}
+
+/*Code copied from: https://www.w3schools.com/howto/howto_css_image_overlay.asp
+  Author: w3schools
+  Name: How TO - Image Hover Overlay
+  Description: Create an image hover fade in text
+  Date retrieved: N/A
+*/
+/*Copied code starts*/
+
+.text, .des{
+  color: white;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family:"Times New Roman", serif;
+  left:10.65vw;
+}
+/*Copied code ends*/
+
+.text {
+  font-size: 1.73vw;
+  position: absolute;
+  top: 15.5vw;
+}
+
+.des {
+  font-size: 0.9vw;
+  position: absolute;
+  top: 18.5vw;
+}
+
+.intro {
+  color:#404740;
+  padding-top: 1.92vw;
+  font-size: 1.19vw;
+  line-height: 2.5em;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;/*check*/
+}
+
+.im1{
+ width: 35.417vw;
+ height:auto;
+ padding:4.2vw 0vw 3.2vw;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.left{
+ position: absolute;
+ top: 12.1vw;
+ left:5.9vw; 
+ font-size:2.25vw;  
+ margin-left: 1.85vw;
+}
+
+.preview{
+ position: absolute;
+ top: 12.9vw;
+ left:5.3vw; 
+ font-size: 1.2vw;
+ margin-left:5.85vw;
+ font-family:"Raleway", sans-serif;
+}
+
+.right{
+ position: absolute;
+ top: 12.1vw;
+ left:5.9vw; 
+ font-size:2.25vw;  
+ margin-left: 84.85vw;
+}
+
+.next{
+ position: absolute;
+ top: 12.85vw;
+ left:81.3vw; 
+ font-size: 1.2vw;
+ margin-left:5.85vw;
+ font-family:"Raleway", sans-serif;
+}
+
+.Row2 {
+  padding-bottom:2.85vw;
+}
+
+.homeimg{ 
+  width:95.313vw;
+  height: auto;
+  padding: 1.6vw 1.636vw 4.489vw;
+}
+
+.fu{
+	margin-left: 32.5vw;
+	margin-top: -9vw;
+}
+
+
+.skills{
+	margin-left: -62vw;
+	margin-top: -1vw;
+}
+
+/*Code copied from: https://alvarotrigo.com/blog/how-to-make-a-progress-bar-in-css/
+  Author: Warren Davies
+  Name: How to make a progress bar in CSS 
+  Description: Tutorial on how to create an animated progress bar
+  Date retrieved:June 03, 2021 
+*/
+/*Copied code starts*/
+
+/*pgb1*/
+
+.progress {
+  width: 15%;
+  margin: 4.450vw 0vw 0.68vw 11.255vw;
+  background-color:#80808015;
+  height: 1.480vw;
+}
+
+/*pgb1*/
+.progress .progressbar1 {
+  animation: progressbar1 3.5s normal forwards ease-in-out;
+}
+
+@keyframes progressbar1 {
+  from {width: 0%;}
+  to {width: 65%;}
+}
+/*Copied code end*/
+
+.progress .progressbar1 , .progress .progressbar2, .progress .progressbar3, .progress .progressbar4, .progress .progressbar5, .progress .progressbar6, .progress .progressbar7, .progress .progressbar8{
+  height: 100%;
+  width: 0%;
+  background-color: #87878790;
+}
+
+/*pgb2*/
+.progress .progressbar2 {
+  animation: progressbar2 4s normal forwards ease-in-out;
+}
+
+@keyframes progressbar2 {
+  from {width: 0%;}
+  to {width: 90%;}
+}
+
+/*pgb3*/
+.progress .progressbar3 {
+  animation: progressbar3 4.5s normal forwards ease-in-out;
+}
+
+@keyframes progressbar3 {
+  from {width: 0%;}
+  to {width: 92%;}
+}
+
+/*pgb4*/
+.progress .progressbar4 {
+  animation: progressbar4 5s normal forwards ease-in-out;
+}
+
+@keyframes progressbar4 {
+  from {width: 0%;}
+  to {width: 75%;}
+}
+
+/*pgb5*/
+.progress .progressbar5 {
+  animation: progressbar5 5.5s normal forwards ease-in-out;
+}
+
+@keyframes progressbar5 {
+  from {width: 0%;}
+  to {width: 88%;}
+}
+
+/*pgb6*/
+.progress .progressbar6 {
+  animation: progressbar6 6s normal forwards ease-in-out;
+}
+
+@keyframes progressbar6 {
+  from {width: 0%;}
+  to {width: 80%;}
+}
+
+/*pgb6*/
+.progress .progressbar7 {
+  animation: progressbar7 6.5s normal forwards ease-in-out;
+}
+
+@keyframes progressbar7 {
+  from {width: 0%;}
+  to {width: 85%;}
+}
+
+/*pgb6*/
+.progress .progressbar8 {
+  animation: progressbar8 7.0s normal forwards ease-in-out;
+}
+
+@keyframes progressbar8 {
+  from {width: 0%;}
+  to {width: 60%;}
+}
+
+.percentage, .tag{
+  color: black;
+  font-family: "Raleway", sans-serif;
+}
+
+.percentage{
+  margin: 0vw; 
+  position:relative; 
+  top:-2.3vw; 
+  left:0vw; 
+  padding-left: 17.5vw;
+  line-height: 2.75em;
+  font-size: 1.00vw;
+}
+
+.tag{
+  margin: -2.225vw 90.5vw -1vw 0vw;
+  text-align: right;
+  font-size: 1.25vw;
+}
+
+.bubbles, .bubblesp, .bubblesshort, .bubblesfour,.bubblesfive{
+ width:100vw;
+ position:absolute;
+ z-index:-1;
+ overflow:hidden;
+ top:0vw;
+ left:0vw;
+}
+
+/*Home Page bubbles*/
+.bubbles{
+  height:120vw;
+}
+
+/*Portfolio bubbles*/
+.bubblesp{
+  height:106.5vw;
+}
+
+/*Bubbles for portfolio "Glance"*/
+.bubblesshort{
+  height:270vw;
+}
+
+/*Bubbles for portfolio with 4 images*/
+.bubblesfour{
+  height:280vw;
+}
+
+/*Bubbles for portfolio with 5 images*/
+.bubblesfive{
+  height:340vw;
+}
+
+/*Code copied from: https://codepen.io/Momika/pen/ydaWmQ
+  Author: Momika Shrestha on CodePen
+  Name: Pure CSS animated bubble background
+  Description: Displays animated circles/bubbles
+  Date retrieved:June 19, 2019
+*/
+/*Copied code starts*/
+
+.bubble{
+  position: absolute;
+  bottom:-10vw;
+  width:2.778vw;
+  height:2.778vw;
+  background: #89898930;
+  border-radius:50%;
+  opacity:0.5;
+  animation: rise 3s infinite ease-in;
+}
+
+.bubble:nth-child(1){
+  width:10.417vw;
+  height:10.417vw;
+  left:10%;
+  animation-duration:8s;
+}
+.bubble:nth-child(2){
+  width:5.556vw;
+  height:5.556vw;
+  left:20%;
+  animation-duration:9s;
+  animation-delay:1s;
+}
+.bubble:nth-child(3){
+  width:3.472vw;
+  height:3.472vw;
+  left:35%;
+  animation-duration:7s;
+  animation-delay:2s;
+}
+.bubble:nth-child(4){
+  width:9.028vw;
+  height:9.028vw;
+  left:50%;
+  animation-duration:8s;
+  animation-delay:4s;
+}
+.bubble:nth-child(5){
+  width:6.597vw;
+  height:6.597vw;
+  left:55%;
+  animation-duration:9s;
+  animation-delay:1s;
+}
+.bubble:nth-child(6){
+  width:3.125vw;
+  height:3.125vw;
+  left:65%;
+  animation-duration:8s;
+  animation-delay:3s;
+}
+.bubble:nth-child(7){
+  width:4.861vw;
+  height:4.861vw;
+  left:70%;
+  animation-duration:10s;
+  animation-delay:2s;
+}
+.bubble:nth-child(8){
+  width:9.375vw;
+  height:9.375vw;
+  left:80%;
+  animation-duration:8s;
+  animation-delay:2s;
+}
+.bubble:nth-child(9){
+  width:1.736vw;
+  height:1.736vw;
+  left:70%;
+  animation-duration:6s;
+  animation-delay:1s;
+}
+.bubble:nth-child(10){
+  width:4.514vw;
+  height:4.514vw;
+  animation-duration:6s;
+  animation-delay:1s;
+}
+.bubble:nth-child(11){
+  width:5.903vw;
+  height:5.903vw;
+  animation-duration:7s;
+}
+
+@keyframes rise{
+	
+from {top: 0vw;}
+  to {top: 450vw;}
+}
+
+.CSSgal {
+	position: relative;
+	overflow: hidden;
+	height: 35.6vw; /* Or set a fixed height */
+	margin-top: -35.7vw;
+	margin-left: 36.5vw;
+	width:60vw;
+}
+
+/* SLIDER */
+
+.CSSgal .slider {
+	height: 35.6vw;
+	white-space: nowrap;
+	font-size: 0;
+	transition: 0.8s;
+}
+
+/* SLIDES * 740/440*/
+
+.CSSgal .slider > * {
+	font-size: 1rem;
+	display: inline-block;
+	white-space: normal;
+	vertical-align: top;
+    height: 35.6vw;
+	width: 100%;
+	background: none 50% no-repeat;
+	background-size: cover;
+	color: brown;
+}
+
+.slider img{
+	width:58vw;
+	margin-left: -0.9vw;
+	margin-top: 5vw;
+	height:auto;
+}
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+
+.CSSgal .prevNext {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	width: 100%;
+	height: 0;
+	
+}
+
+.CSSgal .prevNext > div+div {
+	visibility: hidden; /* Hide all but first P/N container */
+}
+
+.CSSgal .prevNext a {
+	background: #fff;
+	position: absolute;
+	text-align: center;
+	opacity: 0.7;
+	width:       0vw;
+	height:      0vw;
+	line-height: 0vw;
+	margin-left: 1.3vw;
+	-webkit-transition: 0.3s;
+					transition: 0.3s;
+	-webkit-transform: translateY(-50%);
+					transform: translateY(-50%);
+	left: 0;
+	font-size: 2vw;
+}
+
+.CSSgal .prevNext a:hover {
+	opacity: 1;
+}
+.CSSgal .prevNext a+a {
+	left: 55vw;
+	right: 0;
+}
+
+/* NAVIGATION */
+
+.CSSgal .bullets {
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	padding: 1vw 0;
+	width: 100%;
+	text-align: center;
+}
+
+.CSSgal .bullets > a {
+	display: inline-block;
+	width:       0.7vw;
+	height:      0.7vw;
+	line-height: 0.7vw;
+	text-decoration: none;
+	text-align: center;
+	background: darkgray;
+	-webkit-transition: 0.3s;
+					transition: 0.3s;
+}
+
+.CSSgal .bullets > a+a {
+	background:lightgray; /* Dim all but first */
+}
+
+.CSSgal .bullets > a:hover {
+	background: #545454;
+}
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal >s:target ~ .bullets >* {      background: lightgray;}
+/* ACTIVE */
+#s1:target ~ .bullets >*:nth-child(1) {background:darkgray;}
+#s2:target ~ .bullets >*:nth-child(2) {background: darkgray;}
+#s3:target ~ .bullets >*:nth-child(3) {background:darkgray;}
+#s4:target ~ .bullets >*:nth-child(4) {background:darkgray;}
+/* More slides? Add here more rules */
+
+/* PREV/NEXT CONTAINERS VISIBILITY */
+
+/* ALL: */
+.CSSgal >s:target ~ .prevNext >* {      visibility: hidden;}
+/* ACTIVE: */
+#s1:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
+#s2:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
+#s3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
+#s4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
+/* More slides? Add here more rules */
+
+/* SLIDER ANIMATION POSITIONS */
+
+#s1:target ~ .slider {
+	-webkit-transform: translateX(   0%);
+    transform: translateX(   0%); }
+#s2:target ~ .slider {
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%); 
+}
+#s3:target ~ .slider {
+	-webkit-transform: translateX(-200%);
+    transform: translateX(-200%); }
+#s4:target ~ .slider {
+	-webkit-transform: translateX(-300%);
+    transform: translateX(-300%); }
+/* More slides? Add here more rules */
+
+
+/* YOU'RE THE DESIGNER! 
+   ____________________
+   All above was mainly to get it working :)
+   CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+
+.CSSgal{
+	color: #fff;	
+	text-align: center;
+}
+
+.CSSgal .slider h2 {
+	margin-top: 25vh;
+	font-weight: 200;
+	letter-spacing: -0.06em;
+	word-spacing: 0.2em;
+	font-size: 3em;
+}
+
+.CSSgal a {
+	border-radius: 50%;
+	margin: 0 3px;
+	color: rgba(0,0,0,0.8);
+	text-decoration: none;
+}
+
+.foot ,.footersub{
+ color: black;
+ font-size: 1.0vw;
+ padding-bottom: 1.5vw;
+ letter-spacing: 0.15vw;
+ line-height: 2vw;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ font-family: "Raleway", sans-serif;
+}
+
+.foot{
+ margin-top: 7.0vw;
+}
+
+
+/* Christal.css */
